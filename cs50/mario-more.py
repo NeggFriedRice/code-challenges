@@ -8,7 +8,7 @@
 def create_pyramid():
 
     while True:
-        num = int(input("Enter a number between 1 and 8! \n"))
+        num = int(input("Enter a number between 1 and 8: "))
 
         if num >= 1 and num <= 8:
             # Execute print
