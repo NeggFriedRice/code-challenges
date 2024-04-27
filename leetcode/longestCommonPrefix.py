@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/longest-common-prefix/submissions/1242171329/
+
 def longestCommonPrefix(strs):
     """
     :type strs: List[str]
@@ -8,7 +10,6 @@ def longestCommonPrefix(strs):
 
     list = sorted(strs)
 
-    # return list
     first = list[0]
     last = list[-1]
 
