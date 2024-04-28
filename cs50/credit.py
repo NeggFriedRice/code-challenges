@@ -12,6 +12,8 @@ def cc_check():
         print('AMEX')
     elif cc[0:2] == '51' or cc[0:2] == '52' or cc[0:2] == '53' or cc[0:2] == '54' or cc[0:2] == '55':
         print('MASTER')
+    else:
+        print("INVALID")
 
 def visa_check(cc):
     second_nums_array = []
