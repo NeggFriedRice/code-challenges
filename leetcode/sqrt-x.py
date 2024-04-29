@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/sqrtx/solutions/4083846/python-98-beats-6-lines-code-2nd-approach-simple-code/
+
 def mySqrt(x):
 
     counter = 0
